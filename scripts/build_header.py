@@ -61,7 +61,7 @@ def build_header():
       </linearGradient>
     </defs>
     <rect width="1200" height="360" fill="#080a0d"/>
-    ''']
+    '''.replace('\n    ', '\n')]
     parts.append(lettering('xuan jing', 64, 204, 96, '#f2efe8', -2.5))
     parts.append(lettering('Build. Share. Repeat.', 69, 251, 24, '#a9acae', .15))
     parts.append('<g transform="translate(947 180)" fill="none" stroke-linejoin="round">')
