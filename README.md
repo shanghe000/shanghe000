@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="SHANGHE — Build. Share. Repeat." />
+  <img src="./assets/header.svg" width="100%" alt="xuan jing — Build. Share. Repeat." />
 </p>
 
 <p align="center">
@@ -9,7 +9,7 @@
   <a href="./README.en.md">English</a>
 </p>
 
-### 你好，我是 shanghe000
+### 你好，我是 xuan jing
 
 我在做 **能解决具体问题的小工具**，也在探索 **AI Agent 工作流与后端系统**。
 把想法做成可使用、可理解、可继续改进的软件，是这里的主线。
