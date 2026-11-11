@@ -52,4 +52,4 @@
 
 欢迎到具体项目的 Issues 交流。Fork 用于学习和跟进上游，原作者与许可见各仓库说明。
 
-<p align="center"><sub>Build useful things. Share the process.</sub></p>
+<p align="center"><sub>Build. Share. Repeat. · <a href="./assets/brand/README.md">Brand kit</a></sub></p>

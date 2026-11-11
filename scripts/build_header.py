@@ -43,39 +43,44 @@ def ribbon(v, phase):
     return 'M' + 'L'.join(points) + 'Z'
 
 
-parts = ['''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-<title id="title">xuan jing — Build. Share. Repeat.</title>
-<desc id="desc">A silver Möbius ribbon turns slowly beside the xuan jing wordmark on an ink-black background. Motion is replaced with a still composition when reduced motion is preferred.</desc>
-<style>
-  .still { display: none; }
-  @media (prefers-reduced-motion: reduce) {
-    .motion { display: none; }
-    .still { display: inline; }
-  }
-</style>
-<defs>
-  <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
-    <stop stop-color="#f3ede3"/><stop offset=".42" stop-color="#c5c5c2"/>
-    <stop offset=".72" stop-color="#555a60"/><stop offset="1" stop-color="#b2bec4"/>
-  </linearGradient>
-</defs>
-<rect width="1200" height="360" fill="#080a0d"/>
-''']
-parts.append(lettering('xuan jing', 64, 204, 96, '#f2efe8', -2.5))
-parts.append(lettering('Build. Share. Repeat.', 69, 251, 24, '#a9acae', .15))
-parts.append('<g transform="translate(947 180)" fill="none" stroke-linejoin="round">')
-for group in ['still', 'motion']:
-    parts.append(f'<g class="{group}">')
-    for i in range(16):
-        v = 3 + i * 2.8
-        color = '#e7aa7a' if i == 15 else 'url(#silver)'
-        width = 1.6 if i == 15 else .95
-        parts.append(f'<path stroke="{color}" stroke-width="{width}" d="{ribbon(v, 0)}">')
-        if group == 'motion':
-            frames = [ribbon(v, 2 * pi * j / 32) for j in range(32)]
-            frames.append(frames[0])
-            parts.append('<animate attributeName="d" dur="18s" repeatCount="indefinite" values="' + ';'.join(frames) + '"/>')
-        parts.append('</path>')
-    parts.append('</g>')
-parts.append('</g></svg>\n')
-(ROOT / 'assets/xuan-jing.svg').write_text('\n'.join(parts))
+def build_header():
+    parts = ['''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+    <title id="title">xuan jing — Build. Share. Repeat.</title>
+    <desc id="desc">A silver Möbius ribbon turns slowly beside the xuan jing wordmark on an ink-black background. Motion is replaced with a still composition when reduced motion is preferred.</desc>
+    <style>
+      .still { display: none; }
+      @media (prefers-reduced-motion: reduce) {
+        .motion { display: none; }
+        .still { display: inline; }
+      }
+    </style>
+    <defs>
+      <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
+        <stop stop-color="#f3ede3"/><stop offset=".42" stop-color="#c5c5c2"/>
+        <stop offset=".72" stop-color="#555a60"/><stop offset="1" stop-color="#b2bec4"/>
+      </linearGradient>
+    </defs>
+    <rect width="1200" height="360" fill="#080a0d"/>
+    '''.replace('\n    ', '\n')]
+    parts.append(lettering('xuan jing', 64, 204, 96, '#f2efe8', -2.5))
+    parts.append(lettering('Build. Share. Repeat.', 69, 251, 24, '#a9acae', .15))
+    parts.append('<g transform="translate(947 180)" fill="none" stroke-linejoin="round">')
+    for group in ['still', 'motion']:
+        parts.append(f'<g class="{group}">')
+        for i in range(16):
+            v = 3 + i * 2.8
+            color = '#e7aa7a' if i == 15 else 'url(#silver)'
+            width = 1.6 if i == 15 else .95
+            parts.append(f'<path stroke="{color}" stroke-width="{width}" d="{ribbon(v, 0)}">')
+            if group == 'motion':
+                frames = [ribbon(v, 2 * pi * j / 32) for j in range(32)]
+                frames.append(frames[0])
+                parts.append('<animate attributeName="d" dur="18s" repeatCount="indefinite" values="' + ';'.join(frames) + '"/>')
+            parts.append('</path>')
+        parts.append('</g>')
+    parts.append('</g></svg>\n')
+    (ROOT / 'assets/xuan-jing.svg').write_text('\n'.join(parts))
+
+
+if __name__ == "__main__":
+    build_header()
