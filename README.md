@@ -1,49 +1,55 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="SHANGHE — Build useful things. Share the process. AI 工作流、实用工具与系统探索。" />
+  <img src="./assets/header.svg" width="100%" alt="SHANGHE — Build useful things. Share the process." />
 </p>
 
 <p align="center">
-  <a href="#projects">项目 / Projects</a> ·
-  <a href="#exploring">探索 / Exploring</a> ·
-  <a href="https://github.com/shanghe000/.github/blob/main/docs/PLAYBOOK.md">开源手册 / Playbook</a>
+  <a href="#selected-work">作品 / Work</a> ·
+  <a href="https://github.com/shanghe000/job_filter/releases">下载 / Downloads</a> ·
+  <a href="https://github.com/shanghe000/.github/blob/main/docs/PLAYBOOK.md">维护手册 / Playbook</a> ·
+  <a href="./README.en.md">English</a>
 </p>
 
-### 你好，我是 shanghe000 👋
+### 你好，我是 shanghe000
 
-把想法做成工具，把探索留成开源。
+我在做 **能解决具体问题的小工具**，也在探索 **AI Agent 工作流与后端系统**。
+把想法做成可使用、可理解、可继续改进的软件，是这里的主线。
 
-我在探索 **AI Agent 工作流、实用自动化工具与后端系统**。这里记录我正在做的东西，也记录从实验走向可复用项目的过程。
+*Useful software. Thoughtful workflows. Learning in the open.*
 
-*Building useful tools, exploring agent workflows, and sharing what I learn along the way.*
+## Selected work
 
-<a id="projects"></a>
-## Selected projects
+### [Job Filter · 公考职位表筛选器](https://github.com/shanghe000/job_filter)
 
-<a href="https://github.com/shanghe000/job_filter"><img src="./assets/job-filter.svg" width="100%" alt="Job Filter — 公考 Excel 职位表筛选工具，Python 桌面应用" /></a>
+从一整份 Excel 职位表中，筛出值得逐条核对的候选岗位。**离线运行、保留原件、MIT 许可**。
 
-**[公考职位表筛选器](https://github.com/shanghe000/job_filter)** · 选择 Excel，按学历、专业等条件筛选，保留原表格式并另存结果。提供 Windows / macOS 打包流程。
+<a href="https://github.com/shanghe000/job_filter"><img src="https://raw.githubusercontent.com/shanghe000/job_filter/main/docs/images/desktop.png" width="100%" alt="Job Filter 实际桌面界面：文件选择、个人条件、筛选与另存为" /></a>
 
-<a href="https://github.com/shanghe000/auto_trade_workspace_for_codex"><img src="./assets/agent-workspace.svg" width="100%" alt="Agent Workspace — 实验中的 Codex 行情与策略研究工作空间" /></a>
+[试用样例](https://github.com/shanghe000/job_filter/tree/main/examples) · [使用指南](https://github.com/shanghe000/job_filter/blob/main/docs/USAGE.md) · [下载版本](https://github.com/shanghe000/job_filter/releases) · [反馈问题](https://github.com/shanghe000/job_filter/issues)
 
-**[Codex 研究工作空间](https://github.com/shanghe000/auto_trade_workspace_for_codex)** · 行情采集、模拟账户只读观察、策略治理与过程记录。**实验阶段，尚未开放实盘执行**。
+桌面界面与命令行均可使用。筛选结果仅供初筛，正式报名前需要人工核对原始条件。
 
-<a href="https://github.com/shanghe000/open-source-starter"><img src="./assets/open-source.svg" width="100%" alt="Open Source Starter — 文档、贡献流程、自动检查与发布草稿模板" /></a>
+### [Open Source Starter · 开源起步模板](https://github.com/shanghe000/open-source-starter)
 
-**[开源项目起步模板](https://github.com/shanghe000/open-source-starter)** · 让每个新项目从清晰的说明、贡献入口、自动检查和可审核的发布流程开始。
+把重复的准备工作做好：项目说明、贡献入口、社区规范、自动检查、维护指引与发布草稿。
+新项目可以从同一套习惯开始，再加入自己的测试与构建。
 
-<a id="exploring"></a>
-## Currently exploring
+[使用模板](https://github.com/shanghe000/open-source-starter/generate) · [维护指南](https://github.com/shanghe000/open-source-starter/blob/main/docs/MAINTAINER_GUIDE.md)
 
-| 方向 | 正在关注 |
-| :--- | :--- |
-| Agent workflows | Codex、工具协作、可追溯的执行流程 |
-| Practical automation | Python、数据处理、桌面小工具 |
-| Systems foundations | RPC、存储与后端基础；[PRPC 学习记录](https://github.com/shanghe000/PRPC) |
+## In the lab
 
-## Build, document, share
+**[Codex 研究工作空间](https://github.com/shanghe000/auto_trade_workspace_for_codex)** — 行情采集、模拟账户只读观察与策略治理的实验。尚未开放实盘执行，保持研究阶段。
 
-小步实现 → 写清用途与限制 → 检查与评审 → 发布 → 继续迭代。
+**[PRPC 学习记录](https://github.com/shanghe000/PRPC)** — RPC 相关学习的起点，目前主要是说明文档。
 
-欢迎到具体项目的 Issues 交流使用问题与想法。原创项目见上方；Fork 仓库用于学习和跟进上游，原作者与许可证以各仓库说明为准。
+## How I build
 
-<p align="center"><sub>Useful over flashy. Curious by default. Built in the open.</sub></p>
+给出可运行的例子，写清适用范围，验证关键行为，再把版本交到使用者手里。
+
+- **可使用**：最小示例与明确的预期结果。
+- **可理解**：记录限制、设计取舍与变化。
+- **可参与**：清楚的反馈入口与贡献方式。
+- **可持续**：小步发布，按实际反馈决定下一步。
+
+欢迎到具体项目的 Issues 交流。Fork 用于学习和跟进上游，原作者与许可见各仓库说明。
+
+<p align="center"><sub>Build useful things. Share the process.</sub></p>
