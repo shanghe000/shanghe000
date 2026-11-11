@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-label="OPEN SOURCE STARTER: A repeatable path from idea to release.">
+  <rect x="1" y="1" width="1198" height="188" rx="16" fill="#0d1724" stroke="#26394e"/>
+  <rect x="1" y="30" width="4" height="130" rx="2" fill="#c2a4ff"/>
+  <text x="36" y="38" font-family="monospace" font-size="12" letter-spacing="2" fill="#c2a4ff">03 / BUILD IN PUBLIC</text>
+  <text x="34" y="88" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#e9f1fa">OPEN SOURCE STARTER</text>
+  <text x="36" y="124" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#9fb3c8">A repeatable path from idea to release.</text>
+  <text x="36" y="163" font-family="monospace" font-size="11" letter-spacing="1" fill="#7f97b0">TEMPLATES  ·  AUTOMATION</text>
+  <circle cx="1125" cy="95" r="31" fill="#16283a"/>
+  <path d="M1113 107 1137 83M1113 83H1137V107" fill="none" stroke="#c2a4ff" stroke-width="2"/>
+</svg>
