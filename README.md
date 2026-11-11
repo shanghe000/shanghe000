@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg?v=xuan-jing" width="100%" alt="xuan jing — Build. Share. Repeat." />
+  <img src="./assets/xuan-jing.svg" width="100%" alt="xuan jing — Build. Share. Repeat." />
 </p>
 
 <p align="center">

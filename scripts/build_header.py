@@ -78,4 +78,4 @@ for group in ['still', 'motion']:
         parts.append('</path>')
     parts.append('</g>')
 parts.append('</g></svg>\n')
-(ROOT / 'assets/header.svg').write_text('\n'.join(parts))
+(ROOT / 'assets/xuan-jing.svg').write_text('\n'.join(parts))
