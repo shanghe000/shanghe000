@@ -1,6 +1,6 @@
 # Profile artwork
 
-`header.svg` is a self-contained animated vector banner: a quiet wordmark and
+`xuan-jing.svg` is a self-contained animated vector banner: a quiet wordmark and
 one slowly turning Möbius ribbon. It has no scripts, remote fonts or external
 image service. The reduced-motion composition is static.
 
