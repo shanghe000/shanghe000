@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="SHANGHE — Build useful things. Share the process." />
+  <img src="./assets/header.svg" width="100%" alt="SHANGHE — Build. Share. Repeat." />
 </p>
 
 <p align="center">
