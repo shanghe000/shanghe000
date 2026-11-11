@@ -44,8 +44,8 @@ def ribbon(v, phase):
 
 
 parts = ['''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-<title id="title">SHANGHE — Build. Share. Repeat.</title>
-<desc id="desc">A silver Möbius ribbon turns slowly beside the SHANGHE wordmark on an ink-black background. Motion is replaced with a still composition when reduced motion is preferred.</desc>
+<title id="title">xuan jing — Build. Share. Repeat.</title>
+<desc id="desc">A silver Möbius ribbon turns slowly beside the xuan jing wordmark on an ink-black background. Motion is replaced with a still composition when reduced motion is preferred.</desc>
 <style>
   .still { display: none; }
   @media (prefers-reduced-motion: reduce) {
@@ -61,7 +61,7 @@ parts = ['''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" vi
 </defs>
 <rect width="1200" height="360" fill="#080a0d"/>
 ''']
-parts.append(lettering('SHANGHE', 64, 204, 96, '#f2efe8', -2.5))
+parts.append(lettering('xuan jing', 64, 204, 96, '#f2efe8', -2.5))
 parts.append(lettering('Build. Share. Repeat.', 69, 251, 24, '#a9acae', .15))
 parts.append('<g transform="translate(947 180)" fill="none" stroke-linejoin="round">')
 for group in ['still', 'motion']:
