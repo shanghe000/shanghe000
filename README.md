@@ -11,20 +11,12 @@
 
 ### 你好，我是 xuan jing
 
-我在构建 **可追溯的数据与知识系统**，探索 **AI Agent 工作流与后端系统**。
+我在构建 **可追溯的数据研究工具**，探索 **AI Agent 工作流与后端系统**。
 把想法做成可使用、可理解、可继续改进的软件，是这里的主线。
 
 *Useful software. Thoughtful workflows. Learning in the open.*
 
 ## Selected work
-
-### [Ontology Workbench · 知识本体工作台](https://github.com/shanghe000/ontology-workbench)
-
-从指标沿有向图谱追溯计算口径和文档出处。**加权证据遍历 · SQLite 审核版本 · MCP 空间隔离 · DeepSeek 草稿**。
-
-<a href="https://github.com/shanghe000/ontology-workbench"><img src="https://raw.githubusercontent.com/shanghe000/ontology-workbench/main/docs/media/evidence-flow.png" width="100%" alt="Ontology Workbench 的证据流界面，显示准时送达率、业务驱动和文档锚点。使用虚构配送数据。" /></a>
-
-[运行演示](https://github.com/shanghe000/ontology-workbench#运行演示) · [架构与字段](https://github.com/shanghe000/ontology-workbench/blob/main/docs/ARCHITECTURE.md) · [MCP 示例](https://github.com/shanghe000/ontology-workbench/blob/main/docs/LOCAL_ACCESS.md)
 
 ### [Tide Lens · 行情透镜](https://github.com/shanghe000/tide-lens-harness)
 
