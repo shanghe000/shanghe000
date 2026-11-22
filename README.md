@@ -4,19 +4,37 @@
 
 <p align="center">
   <a href="#selected-work">作品 / Work</a> ·
-  <a href="https://github.com/shanghe000/job_filter/releases">下载 / Downloads</a> ·
+  <a href="https://github.com/shanghe000/tide-lens-harness/releases">下载 / Downloads</a> ·
   <a href="https://github.com/shanghe000/.github/blob/main/docs/PLAYBOOK.md">维护手册 / Playbook</a> ·
   <a href="./README.en.md">English</a>
 </p>
 
 ### 你好，我是 xuan jing
 
-我在做 **能解决具体问题的小工具**，也在探索 **AI Agent 工作流与后端系统**。
+我在构建 **可追溯的数据研究工具**，探索 **AI Agent 工作流与后端系统**。
 把想法做成可使用、可理解、可继续改进的软件，是这里的主线。
 
 *Useful software. Thoughtful workflows. Learning in the open.*
 
 ## Selected work
+
+### [Tide Lens · 行情透镜](https://github.com/shanghe000/tide-lens-harness)
+
+面向 DeepSeek Harness 的衍生品研究工作台，将多交易所行情、持仓历史与盘口回放连接到可核对的数据来源。
+
+**多源数据整合 · 净仓位重建 · 时间轴回放 · 逐字段证据 · Agent 工具集成**
+
+<a href="https://github.com/shanghe000/tide-lens-harness"><img src="https://raw.githubusercontent.com/shanghe000/tide-lens-harness/main/docs/media/tide-lens-home.jpg" width="100%" alt="Tide Lens 行情研究工作台：K 线、趋势线与估算清算热力图，使用合成演示数据" /></a>
+
+[项目与架构](https://github.com/shanghe000/tide-lens-harness) · [数据覆盖与计算口径](https://github.com/shanghe000/tide-lens-harness/blob/main/docs/coverage.md) · [下载插件](https://github.com/shanghe000/tide-lens-harness/releases)
+
+### [Codex Research Workspace · Agent 研究工作空间](https://github.com/shanghe000/auto_trade_workspace_for_codex)
+
+围绕行情快照、模拟账户只读观察与策略治理，探索 Agent 控制面和确定性数据工具的分工。
+
+**数据采集与标准化 · 快照与运行记录 · 策略治理设计**。当前为研究阶段，实盘执行未启用。
+
+[架构设计](https://github.com/shanghe000/auto_trade_workspace_for_codex/blob/main/docs/architecture.md) · [策略治理](https://github.com/shanghe000/auto_trade_workspace_for_codex/blob/main/docs/strategy-governance.md)
 
 ### [Job Filter · 公考职位表筛选器](https://github.com/shanghe000/job_filter)
 
@@ -36,8 +54,6 @@
 [使用模板](https://github.com/shanghe000/open-source-starter/generate) · [维护指南](https://github.com/shanghe000/open-source-starter/blob/main/docs/MAINTAINER_GUIDE.md)
 
 ## In the lab
-
-**[Codex 研究工作空间](https://github.com/shanghe000/auto_trade_workspace_for_codex)** — 行情采集、模拟账户只读观察与策略治理的实验。尚未开放实盘执行，保持研究阶段。
 
 **[PRPC 学习记录](https://github.com/shanghe000/PRPC)** — RPC 相关学习的起点，目前主要是说明文档。
 
