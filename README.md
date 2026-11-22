@@ -18,13 +18,13 @@
 
 ## Selected work
 
-### [知识本体引擎 · Ontology Engine](https://github.com/shanghe000/ontology-engine)
+### [知域 · Domain Grove](https://github.com/shanghe000/domain-grove)
 
-把指标、业务规则和来源资料串成可下钻的有向图。**3D 分层画布 · 加权取证 · 版本审核 · MCP · DeepSeek 建模**。
+用本体建模和领域驱动设计（DDD）长期维护业务知识。在各自的上下文中定义术语和规则，关联原始资料，并随着业务变化审核和发布新版本。
 
-<a href="https://github.com/shanghe000/ontology-engine"><img src="https://raw.githubusercontent.com/shanghe000/ontology-engine/main/docs/media/index-layers.png" width="100%" alt="知识本体引擎的三维索引视图，展示指标与文档出处，使用虚构示例。" /></a>
+<a href="https://github.com/shanghe000/domain-grove"><img src="https://raw.githubusercontent.com/shanghe000/domain-grove/main/docs/media/index-layers.png" width="100%" alt="知域工作台的三维索引视图，展示指标与文档出处，使用虚构示例。" /></a>
 
-[运行示例](https://github.com/shanghe000/ontology-engine#运行示例) · [YAML 和 MCP 契约](https://github.com/shanghe000/ontology-engine/blob/main/INDEX-SPEC.md)
+[运行示例](https://github.com/shanghe000/domain-grove#运行示例) · [领域知识模型契约](https://github.com/shanghe000/domain-grove/blob/main/INDEX-SPEC.md)
 
 ### [Tide Lens · 行情透镜](https://github.com/shanghe000/tide-lens-harness)
 

@@ -8,11 +8,11 @@ I build traceable data research tools and explore agent workflows and backend sy
 
 ## Selected work
 
-### [Ontology Engine](https://github.com/shanghe000/ontology-engine)
+### [Domain Grove](https://github.com/shanghe000/domain-grove)
 
-A visual ontology engine for business evidence. Explore 3D layers, follow weighted source links, and publish reviewed revisions for MCP clients. DeepSeek can draft graph changes for human review.
+Maintain business knowledge over time with ontology modeling and domain-driven design (DDD). Define terms and rules in context, link them to source material, and publish reviewed revisions as the business evolves.
 
-[Run the example](https://github.com/shanghe000/ontology-engine#运行示例) · [YAML and MCP specification](https://github.com/shanghe000/ontology-engine/blob/main/INDEX-SPEC.md)
+[Run the example](https://github.com/shanghe000/domain-grove#运行示例) · [Knowledge model specification](https://github.com/shanghe000/domain-grove/blob/main/INDEX-SPEC.md)
 
 ### [Tide Lens](https://github.com/shanghe000/tide-lens-harness)
 
