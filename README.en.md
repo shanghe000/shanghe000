@@ -8,6 +8,12 @@ I build traceable data research tools and explore agent workflows and backend sy
 
 ## Selected work
 
+### [Ontology Engine](https://github.com/shanghe000/ontology-engine)
+
+A visual ontology engine for business evidence. Explore 3D layers, follow weighted source links, and publish reviewed revisions for MCP clients. DeepSeek can draft graph changes for human review.
+
+[Run the example](https://github.com/shanghe000/ontology-engine#运行示例) · [YAML and MCP specification](https://github.com/shanghe000/ontology-engine/blob/main/INDEX-SPEC.md)
+
 ### [Tide Lens](https://github.com/shanghe000/tide-lens-harness)
 
 A derivatives research workbench for DeepSeek Harness: multi-exchange data integration, position reconstruction, order-book replay, and field-level evidence for agent-assisted analysis.
