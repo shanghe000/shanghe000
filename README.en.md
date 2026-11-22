@@ -4,15 +4,9 @@
 
 [中文主页](README.md) · [GitHub](https://github.com/shanghe000)
 
-I build traceable data and knowledge systems and explore agent workflows and backend systems.
+I build traceable data research tools and explore agent workflows and backend systems.
 
 ## Selected work
-
-### [Ontology Workbench](https://github.com/shanghe000/ontology-workbench)
-
-A knowledge graph workbench for tracing metrics to their source documents. Weighted evidence traversal, transactional review, workspace-scoped MCP, and optional DeepSeek drafting.
-
-[Run the example](https://github.com/shanghe000/ontology-workbench/blob/main/README.en.md#run-the-example) · [Architecture](https://github.com/shanghe000/ontology-workbench/blob/main/docs/ARCHITECTURE.md) · [MCP example](https://github.com/shanghe000/ontology-workbench/blob/main/docs/LOCAL_ACCESS.md)
 
 ### [Tide Lens](https://github.com/shanghe000/tide-lens-harness)
 
